@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="theme-color" content="#2C3335">
+	<!-- <meta name="theme-color" content="#2C3335"> -->
 	<title> Suraj chaudhary </title>
 	<link rel='shortcut icon' type='image/x-icon' href='../assets/img/favicon.png' />
 	<link rel="stylesheet" type="text/css" href="../style/index.css">
+	<link rel="stylesheet" type="text/css" href="../style/myWorks.css">
+	<link rel="stylesheet" type="text/css" href="../style/contactMe.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <script	  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -43,9 +45,9 @@
 	   <div id="mainNav">
 	  	<ul id="navigationBar">
 	  		<!-- <li id="navigatorIcon">&times;</li> -->
-	  		<li>Home</li>
-	  		<li>Projects</li>
+	  		<li onclick="home();">Home</li>
 	  		<li onclick="window.open('../assets/Docs/resume.pdf','_blank')">Resume</li>
+	  		<li onclick="myWorks();">My Works</li>
 	  		<li>About me</li>
 	  		<li>contact me</li>
 	  	</ul>
@@ -53,24 +55,162 @@
 
 	  <!-- menu bar ends here -->
 	  
-      <!-- main section starts here -->
+     
 	  <main>
 	  	    
+	  	    <!-- index.html starts here -->
+	  <section id="indexPage">	    
 	        <section id="introSection">
 	        	
 	        	  <h1 class="mainName">Suraj <br> chaudhary</h1>
 	        	 
 	        	
-	        	<h2>Just a learner and tech enthusiast with the passion of real time designing and development </h2>
+	        	<h2 id="introPara">Just a learner and tech enthusiast with the passion of real time designing and development </h2>
 	        </section>	
+	   </section>     
+			<!-- index.html ends here -->
 
+<!-- ...................................................................................... -->
+
+            <!-- myWorks.html starts here-->
+            <section id="myWorksPage">
+            	<div> 
+            	  <h1 id="myWorksHead">Let's have a look at my works & projects</h1>
+            	</div>
+
+				<div id="myWorksMainDiv">
+					<!-- items 1  -->
+					 <div class="myWorkItem">
+						<div class="inner">
+							<section class="threeDots">
+								<div></div>
+								<div></div>
+								<div></div>	
+							</section>
+						</div>
+							<div class="workContainer">
+							   <p>this is a test</p>
+							</div>
+					 </div>
+					 <!-- item 1 end -->
+
+					 <!-- items 2  -->
+					 <div class="myWorkItem">
+						<div class="inner">
+							<section class="threeDots">
+								<div></div>
+								<div></div>
+								<div></div>	
+							</section>
+						</div>
+							<div class="workContainer">
+								<p>this is a test</p>
+							</div>
+					 </div>
+					 <!-- item 2 end -->
+
+					 <!-- items 3  -->
+					 <div class="myWorkItem">
+						<div class="inner">
+							<section class="threeDots">
+								<div></div>
+								<div></div>
+								<div></div>	
+							</section>
+						</div>
+							<div class="workContainer">
+								<p>this is a test</p>
+							</div>
+					 </div>
+					 <!-- item 3 end -->
+
+					 <!-- items 4  -->
+					 <div class="myWorkItem">
+						<div class="inner">
+							<section class="threeDots">
+								<div></div>
+								<div></div>
+								<div></div>	
+							</section>
+						</div>
+							<div class="workContainer">
+								<p>this is a test</p>
+							</div>
+					 </div>
+					 <!-- item 4 end -->
+
+					 <!-- items 5  -->
+					 <div class="myWorkItem">
+						<div class="inner">
+							<section class="threeDots">
+								<div></div>
+								<div></div>
+								<div></div>	
+							</section>
+						</div>
+							<div class="workContainer">
+								<p>this is a test</p>
+							</div>
+					 </div>
+					 <!-- item 5 end -->
+
+					 <!-- items 6  -->
+					 <div class="myWorkItem">
+						<div class="inner">
+							<section class="threeDots">
+								<div></div>
+								<div></div>
+								<div></div>	
+							</section>
+						</div>
+							<div class="workContainer">
+								<p>this is a test</p>
+							</div>
+					 </div>
+					 <!-- item 6 end -->
+
+					
+					
+				</div>
+            	
+            </section>
+
+
+            <!-- myWorks.html ends here-->
 	        
 
-	        
+			<!-- contactMe.html starts here -->
+
+				<section id="contactMePage">
+					<div id="contactMeheaderDiv">
+					   <h1 class="contactMeHead">Let's talk</h1>
+					   <p class="contactMePara">If you want to get in touch with me about any project or collaboration , just fill the form below or mail me at <span class="mailSpan">suraj3g3@gmail.com</span></p>
+				    </div>
+
+				    <div id="contactForm">
+				    	<form action="#" method="POST">
+				    	     <input type="text" name="username" id="username" placeholder="Fill your name">
+							<br> <br>				    	    
+				    	</form>
+				    </div>
+
+
+				    <div id="socialMediaDiv">
+				    	<h1>Get in touch using social media</h1>
+			            <button class="facebookBtn"><i class="fab fa-facebook-f fa-2x">&nbsp;&nbsp;facebook</i></button>
+			            <button class="twitterBtn"><i class="fab fa-twitter fa-2x"></i>&nbsp;&nbsp;Twitter</i></button>
+			            <button class="linkedinBtn"><i class="fab fa-linkedin fa-2x">&nbsp;&nbsp;Linkedin</i></button>
+			            <button class="githubBtn"><i class="fab fa-github fa-2x">&nbsp;&nbsp;Github</i></button>
+
+				    </div>
+
+				</section>
+
+	         
+	         <!-- contactMe.html starts here -->
         
 	  </main>
    		<!-- main section ends here -->
-
 			<footer>
 	          <p>&copy; 2019  surajchaudhary All Right Reserved</p>
 	        </footer>
@@ -79,6 +219,7 @@
 
 	  <!-- scripts starts here -->
 		<script type="text/javascript" src="../scripts/index.js"></script>
+		<script type="text/javascript" src="../scripts/myWorks.js"></script>
 
 
 	  <!-- scripts ends here -->

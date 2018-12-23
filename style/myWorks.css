@@ -1,0 +1,81 @@
+#myWorks{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #0a3d62;
+	/*opacity: 0.8;*/
+}
+
+#myWorksHead{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	font-weight: 800;
+    font-family: 'ZCOOL XiaoWei', serif;
+	margin-bottom: 5vh;
+}
+
+#myWorksMainDiv{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-row-gap: 0.5em;
+	grid-column-gap: 2em;
+}
+
+.myWorkItem{
+	min-height: 30vh;
+	min-width: calc(50vh);
+	/*background: #aaa69d; */
+	/*background: #596275; */
+	background: #0E0E0E; 
+	margin-bottom: 30px;
+	cursor: pointer;
+	opacity: 0.9;
+	box-shadow: 2px 2px 4px 8px #222;	
+}
+
+
+
+.myWorkItem .inner{
+	height: 12%;
+	width: 100%;
+	/*background-color: #95a5a6;*/
+	background-color: #DDDDDD;
+}
+
+
+.threeDots div{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.threeDots div:nth-child(1){
+	margin-left: 10px;
+	background-color: #FF5F57;
+}
+.threeDots div:nth-child(2){
+	background-color: #FFBD2E;
+}
+.threeDots div:nth-child(3){
+	background-color: #28CA41;
+}
+
+@media(max-width: 576px) {
+	  #myWorksMainDiv{
+			width: 100%;
+			margin: auto;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-gap: 1em;
+      }
+
+  	 .myWorkItem{
+			min-height: 30vh;
+			min-width: calc(50vh);
+			background-color: #000;
+			margin-bottom: 20px;
+     }
+}
+

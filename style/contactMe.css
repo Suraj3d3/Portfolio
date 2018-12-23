@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css?family=Muli');
+
+#contactMePage{
+	background-color: #0c2461;
+	color: #fff;
+	height: 100vh;
+}
+
+#contactMeheaderDiv{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contactMeHead{
+	text-align: center;
+	font-weight: 500;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 50px;
+}
+
+.contactMePara{
+	margin-top: 20px;
+	font-size: 22px;
+	text-align: left;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.mailSpan{
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+#contactForm{
+	width: 80%;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#username{
+	height: 10vh;
+	width: 50%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+
+
+
+
+#contactForm input{
+	font-size: 5vh;
+	color: #fff;
+	font-style: italic;
+	font-family: 'ZCOOL XiaoWei', serif;
+	/*font-weight: bold;*/
+
+}
+
+#socialMediaDiv h1{
+	  font-size: 4vh;
+	  color: #f8c291;
+}
+#socialMediaDiv{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	align-items: center;
+}
+
+.facebookBtn{
+   background-color: #3B5998;
+   border:none;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+.twitterBtn{
+   background-color: #1DA1F2;
+   border:none;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+.linkedinBtn{
+	 background-color: #0073B1;
+   border:none;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+.githubBtn{
+   background-color: #24292E;
+   border:none;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+.facebookBtn:hover , .githubBtn:hover , .twitterBtn:hover , .linkedinBtn:hover{
+    transform: rotate(1deg);
+}
+
+ 
+

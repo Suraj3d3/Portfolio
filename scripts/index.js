@@ -4,7 +4,6 @@
     window.onload=function(){
     	$("#loadTransparent").css("display","none");
     	$("#loading").hide();
-
     }
     	
    
@@ -15,17 +14,20 @@ $(document).ready(function(){
 	$("#menuIcon").click(function(){
 		$("#mainNav").toggle(800);
 	});
+
+  $("#myWorksPage").hide();
 });
 
 $(document).ready(function(){  
 
-       	       $('h1').slideUp(2000);
-       	        $('h1').slideDown(2000);
-                $('h2').hide();
+       	       $('.mainName').slideUp(2000);
+       	        $('.mainName').slideDown(2000);
+                $('#introPara').hide();
        	   
        	   setTimeout(function(){
-       	   	    $('h2').show();
+       	   	    $('#introPara').show();
        	   },2000);
 });
+
 
 
