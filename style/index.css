@@ -8,6 +8,12 @@
     padding: 0;
     /*overflow: hidden;*/
 }
+input,textarea{
+	outline: none;
+}
+button{
+	outline: none;
+}
 
 
 .backgroundImage
@@ -15,7 +21,7 @@
 	background-image:url('../assets/img/bgTest.png') ;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat:repeat;
 	/*height: 100vh;
 	width: 100%;
 	position:fixed;
@@ -207,8 +213,14 @@ footer p{
 }
 
 
-@media only screen and (max-width: 600px) 
+@media (max-width: 768px)
 {
+	   #loading
+	   {
+			position: absolute;
+			top: 30%;
+			left: 25%;
+        }
         header
         {
           margin-top: 5%;
@@ -222,12 +234,12 @@ footer p{
 
 	    #menuIcon i
 	    {
-			font-size: 120px;
+			font-size: 40px;
         } 
 
         #social i
         {
-           font-size: 80px;
+           font-size: 30px;
         }
 
        /* #introSection
@@ -239,12 +251,12 @@ footer p{
 
         .mainName
         {
-        	font-size: 120px;
+        	font-size: 60px;
         }
 
         #introSection h2
         {
-        	font-size: 50px;
+        	font-size: 30px;
         	margin-top: 5%;
         }
 

@@ -2,9 +2,8 @@
  @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
 #contactMePage{
-	/*background-color: transparent;*/
-	/*background-color: #0c2461;*/
-	background-color:rgba(25, 42, 86,1.0);
+	background-color: transparent;
+	/*background-color:rgba(25, 42, 86,1.0);*/
 	color: #fff;
 	height: 100vh;
 }
@@ -58,6 +57,9 @@
 
 
 #contactForm input[type='text']{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 	font-size: 5vh;
 	color: #fff;
 	font-style: italic;
@@ -65,13 +67,19 @@
 	/*font-weight: bold;*/
 }
 #contactForm input[type='email']{
-	font-size: 5vh;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	font-size: 4vh;
 	color: #fff;
 	font-style: italic;
 	font-family: 'ZCOOL XiaoWei', serif;
 	/*font-weight: bold;*/
 }
 #contactForm textarea{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 	font-size: 5vh;
 	color: #fff;
 	background-color: transparent;
@@ -110,7 +118,8 @@
 
 #socialMediaDiv h1{
 	  font-size: 5vh;
-	  color: #10ac84;
+	  color: #fff;
+	  /*color: #10ac84;*/
      font-family: 'Noto Serif', serif;
 } 
 #socialMediaDiv p{
@@ -139,6 +148,7 @@
    box-shadow: 0px 2px 10px 2px #000000;
    margin-left:1%;
    border-radius:5%;
+   margin-bottom:10px;
 }
 
 
@@ -153,6 +163,7 @@
    box-shadow: 0px 2px 10px 2px #000000;
    margin-left:1%;
    border-radius:5%;
+   margin-bottom:10px;
 }
 .linkedinBtn{
 	 background-color: #0073B1;
@@ -165,6 +176,7 @@
    box-shadow: 0px 2px 10px 2px #000000;
    margin-left:1%;
    border-radius:5%;
+   margin-bottom:10px;
 }
 .githubBtn{
    background-color: #24292E;
@@ -177,13 +189,21 @@
    box-shadow: 0px 2px 10px 2px #000000;
    margin-left:1%;
    border-radius:5%;
+   margin-bottom:10px;
 }
 .facebookBtn:hover , .githubBtn:hover , .twitterBtn:hover , .linkedinBtn:hover{
     padding:9px;
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px)
+::placeholder{
+	color: #fff;
+	font-family:arial,sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+@media (max-width: 768px)
 {
     .contactMeHead
     {

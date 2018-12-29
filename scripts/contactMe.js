@@ -20,7 +20,7 @@ nextBtn.addEventListener("click",function(){
             counter++;
       	   }
       	   else{
-                username.placeholder="You forgot me 😢";
+                username.placeholder="You forgot me..";
       	   }
       	   
       }
@@ -38,7 +38,7 @@ nextBtn.addEventListener("click",function(){
      
       else
       {
-      	email.placeholder="You forgot me 😢";
+      	email.placeholder="You forgot me..";
       }
   }
      

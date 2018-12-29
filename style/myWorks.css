@@ -1,7 +1,7 @@
 #myWorksPage{
-	height: 100vh;
+	min-height: 100%;
 	width: 100%;
-	background-color: #0a3d62;
+	/*background-color: #0a3d62;*/
 	/*opacity: 0.8;*/
 }
 
@@ -63,27 +63,43 @@
 }
 
 
-@media only screen and (max-width: 600px)
+@media (max-width: 768px)
 {
      
 	#myWorksHead
 	{
-		font-size: 8vh;
+		margin-top: 5%;
+		font-size: 5vh;
 	}
 
 	#myWorksMainDiv
 	{
-			width: 80%;
+			width: 95%;
 			margin: auto;
 			display: grid;
 			grid-template-columns: 1fr;
 			grid-row-gap: 0.5em;
 			grid-column-gap: 2em;
     }
+    .myWorkItem
+    {
+			height: 30vh;
+			width: calc(50vh);
+			/*background: #aaa69d; */
+			/*background: #596275; */
+			background: #0E0E0E; 
+			margin-bottom: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			cursor: pointer;
+			opacity: 0.9;
+			box-shadow: 2px 2px 4px 8px #222;	
+    }
+
     .threeDots div
     {
-			height: 30px;
-			width: 30px;
+			height: 15px;
+			width: 15px;
 			border-radius: 50%;
 			display: inline-block;
     }

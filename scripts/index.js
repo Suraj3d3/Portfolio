@@ -37,7 +37,6 @@ function home(){
        $("#myWorksPage").hide();
        $("#contactMe").hide();
        $("#indexPage").show();
-       $("#headerDiv").css("background-color","transparent");
 }
 
 function myWorks(){
@@ -45,7 +44,6 @@ function myWorks(){
        $("#indexPage").hide();
        $("#contactMe").hide();
        $("#myWorksPage").show();
-       $("#headerDiv").css("background-color","transparent");
 }
 
 function contactMe(){
@@ -53,7 +51,6 @@ function contactMe(){
        $("#indexPage").hide();
        $("#myWorksPage").hide();
        $("#contactMePage").show();
-       $("#headerDiv").css("background-color","rgba(25, 42, 86,1.0)");
 }
 
  
