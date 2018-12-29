@@ -1,5 +1,5 @@
-#myWorks{
-	min-height: 100vh;
+#myWorksPage{
+	height: 100vh;
 	width: 100%;
 	background-color: #0a3d62;
 	/*opacity: 0.8;*/
@@ -24,8 +24,8 @@
 }
 
 .myWorkItem{
-	min-height: 30vh;
-	min-width: calc(50vh);
+	height: 30vh;
+	width: calc(50vh);
 	/*background: #aaa69d; */
 	/*background: #596275; */
 	background: #0E0E0E; 
@@ -62,20 +62,30 @@
 	background-color: #28CA41;
 }
 
-@media(max-width: 576px) {
-	  #myWorksMainDiv{
-			width: 100%;
+
+@media only screen and (max-width: 600px)
+{
+     
+	#myWorksHead
+	{
+		font-size: 8vh;
+	}
+
+	#myWorksMainDiv
+	{
+			width: 80%;
 			margin: auto;
 			display: grid;
 			grid-template-columns: 1fr;
-			grid-gap: 1em;
-      }
+			grid-row-gap: 0.5em;
+			grid-column-gap: 2em;
+    }
+    .threeDots div
+    {
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			display: inline-block;
+    }
 
-  	 .myWorkItem{
-			min-height: 30vh;
-			min-width: calc(50vh);
-			background-color: #000;
-			margin-bottom: 20px;
-     }
 }
-
