@@ -13,12 +13,11 @@
     <script	  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
-
-			  
-
+  
 
 </head>
 <body class="backgroundImage">
+
 	<div id="loadTransparent"></div>
 
 	<header> 
@@ -191,32 +190,33 @@
 				    </div>
 
 				    <div id="contactForm">
-				    	<form action="#" method="POST">
-				    	     <input type="text" name="username" id="username" placeholder="Fill your name">
-							<br> 
-			                 <input type="email" name="email" id="email" placeholder="Fill your email">
+				    	<form action="../PHP/submit.php" method="POST">
+				    	    <input type="text" name="username" id="username" placeholder="Fill your name" required>
+							 <br> 
+			                <input type="email" name="email" id="email" placeholder="Fill your email" required>
 
-							<textarea placeholder="Enter your message here" id="msg"></textarea>	
+							<textarea placeholder="Enter your message here" id="msg" name="msg" required> </textarea>
 							<br> <br>
-							<input type="button" name="next" id="nextBtn" value="Next">			    	    
+							<input type="button" name="next" class="Btn" id="nextBtn" value="Next">	&nbsp;	    	    
+							<input type="submit" value="submit your Message" class="Btn" id="submitBtn">
 				    	</form>
 				    </div>
 
 
 				    <div id="socialMediaDiv">
 				    	<h1>Get in touch using social media</h1>
-				    	<p>Follow me on social media to get in touch with me.Feel free to mail me at suraj3d3@gmail.com</p>
+				    	<p>Follow me on social media to get in touch with me.Feel free to contact me at suraj3d3@gmail.com</p>
 			            <button class="facebookBtn"><i class="fab fa-facebook-f fa-2x">&nbsp;&nbsp;facebook</i></button>
-			            <button class="twitterBtn"><i class="fab fa-twitter fa-2x">&nbsp;&nbsp;Twitter</i></button>
-			            <button class="linkedinBtn"><i class="fab fa-linkedin fa-2x">&nbsp;&nbsp;Linkedin</i></button>
-			            <button class="githubBtn"><i class="fab fa-github fa-2x">&nbsp;&nbsp;Github</i></button>
+			            <button class="twitterBtn" onclick="window.open('https://twitter.com/suraj3d3','_blank');"><i class="fab fa-twitter fa-2x">&nbsp;&nbsp;Twitter</i></button>
+			            <button class="linkedinBtn" onclick="window.open('https://www.linkedin.com/in/suraj-chaudhary-2a4801146/','_blank');"><i class="fab fa-linkedin fa-2x">&nbsp;&nbsp;Linkedin</i></button>
+			            <button class="githubBtn" onclick="window.open('https://github.com/Suraj3d3','_blank');"><i class="fab fa-github fa-2x">&nbsp;&nbsp;Github</i></button>
 
 				    </div>
 
 				</section>
 
 	         
-	         <!-- contactMe.html starts here -->
+	         <!-- contactMe.html ends here -->
         
 	  </main>
    		

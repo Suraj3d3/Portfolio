@@ -18,7 +18,8 @@
 	text-align: center;
 	font-weight: 500;
 	font-family: 'ZCOOL XiaoWei', serif;
-	font-size: 50px;
+	font-size: 90px;
+	color: #F8EFBA;
 }
 
 .contactMePara{
@@ -26,7 +27,7 @@
 	font-size: 22px;
 	text-align: left;
     font-family: 'Muli', sans-serif;
-
+    
 }
 
 .mailSpan{
@@ -92,7 +93,7 @@
 }
 
 
-#nextBtn{
+.Btn{
 	padding:5px 30px 5px 30px;
 	background-color:#DAE0E2;
 	color: #000;
@@ -104,13 +105,13 @@
 	box-shadow: 0px 2px 10px 2px #000000;
 }
 
-#nextBtn:hover{
+.Btn:hover{
 	background-color: #99AAAB;
 	border-bottom: 10px solid #777777;
 	cursor: pointer;
 }
 
-#nextBtn:active{
+.Btn:active{
 	transform: translateX(5px);
 	color: #fff;
 }
@@ -118,12 +119,12 @@
 
 #socialMediaDiv h1{
 	  font-size: 5vh;
-	  color: #fff;
+	  color: #F8EFBA;
 	  /*color: #10ac84;*/
      font-family: 'Noto Serif', serif;
 } 
 #socialMediaDiv p{
-	 color: gray;
+	 color: #dff9fb;
 	 font-size: 3vh;
 	 line-height: 1.5em;
 	 margin-bottom: 3vh;
@@ -141,7 +142,7 @@
    background-color: #3B5998;
    border:none;
    color: #fff;
-   padding: 10px;
+   padding: 8px;
    text-align: center;
    border:none;
    border-bottom:10px solid #5758BB;
@@ -156,7 +157,7 @@
    background-color: #1DA1F2;
    border:none;
    color: #fff;
-   padding: 10px;
+   padding: 8px;
    text-align: center;
    border:none;
    border-bottom:10px solid #0074e1;
@@ -169,7 +170,7 @@
 	 background-color: #0073B1;
    border:none;
    color: #fff;
-   padding: 10px;
+   padding: 8px;
    text-align: center;
    border:none;
    border-bottom:10px solid #0a3d62;
@@ -182,7 +183,7 @@
    background-color: #24292E;
    border:none;
    color: #fff;
-   padding: 10px;
+   padding: 8px;
    text-align: center;
    border:none;
    border-bottom:10px solid #2d3436;
@@ -192,7 +193,7 @@
    margin-bottom:10px;
 }
 .facebookBtn:hover , .githubBtn:hover , .twitterBtn:hover , .linkedinBtn:hover{
-    padding:9px;
+    padding:7px;
     cursor: pointer;
 }
 
@@ -207,7 +208,8 @@
 {
     .contactMeHead
     {
-		font-size: 5vh;
+		font-size: 9vh;
+
     }
 
     #contactForm
